@@ -1,6 +1,6 @@
-class Fruit(object):
+#class Fruit(object):
 
-    def __init__(self):
+    #def __init__(self):
         print ("starting Fruit class")
 
     def nutrition(self):
