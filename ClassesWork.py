@@ -4,7 +4,7 @@ class Fruit(object):
         print ("starting Fruit class")
 
     def nutrition(self):
-        print ("Fruit nutrion")
+        print ("Fruit nutrition")
 
     def color(self):
         print ("Color class")
