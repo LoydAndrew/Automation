@@ -13,5 +13,5 @@ print (str(my_file_new.readline()))
 my_file_new.close()
 
 print('with as construction reading all file')
-with open('file.txt','r') as f:
+with open('file.txt','r') as f: #wit as doesn`t need close file
     print(str(f.read()))
