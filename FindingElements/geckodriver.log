@@ -76,3 +76,320 @@ JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtoo
 1514218579899	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://prom.ua/"
 1514218580976	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
 1514218585896	Marionette	DEBUG	Received DOM event "pageshow" for "https://prom.ua/"
+[Parent 14703, Gecko_IOThread] WARNING: pipe error (48): Connection reset by peer: file /build/firefox-bfYN6l/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1514225689826	geckodriver	INFO	geckodriver 0.18.0
+1514225689831	geckodriver	INFO	Listening on 127.0.0.1:42283
+1514225690988	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1514225691740	Marionette	INFO	Enabled via --marionette
+1514225694036	Marionette	INFO	Listening on port 39571
+1514225694198	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514225694308	Marionette	DEBUG	Register listener.js for window 2147483649
+1514225694359	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514225695413	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514225695414	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514225701254	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/p/practice"
+1514225705988	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1514225706081	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/p/practice"
+1514225706100	Marionette	DEBUG	Received DOM event "beforeunload" for "https://letskodeit.teachable.com/p/practice"
+1514225706346	Marionette	DEBUG	Received DOM event "pagehide" for "https://letskodeit.teachable.com/p/practice"
+1514225706347	Marionette	DEBUG	Received DOM event "unload" for "https://letskodeit.teachable.com/p/practice"
+1514225707575	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1514225707576	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483670"
+1514225707576	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1514225707576	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1514225707577	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1514225707577	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1514225707578	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1514225707579	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1514225707850	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://prom.ua/"
+1514225709252	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483682"
+1514225714175	Marionette	DEBUG	Received DOM event "pageshow" for "https://prom.ua/"
+1514225897723	geckodriver	INFO	geckodriver 0.18.0
+1514225897729	geckodriver	INFO	Listening on 127.0.0.1:54751
+1514225898886	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1514225899662	Marionette	INFO	Enabled via --marionette
+1514225901781	Marionette	INFO	Listening on port 34081
+1514225901826	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514225901940	Marionette	DEBUG	Register listener.js for window 2147483649
+1514225901972	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514225902781	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514225902781	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514225908593	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/p/practice"
+1514225913336	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1514225914301	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1514225914365	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/p/practice"
+1514225914410	Marionette	DEBUG	Received DOM event "beforeunload" for "https://letskodeit.teachable.com/p/practice"
+1514225914660	Marionette	DEBUG	Received DOM event "pagehide" for "https://letskodeit.teachable.com/p/practice"
+1514225914662	Marionette	DEBUG	Received DOM event "unload" for "https://letskodeit.teachable.com/p/practice"
+1514225915962	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1514225915963	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1514225915963	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1514225915964	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1514225915964	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1514225915965	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1514225915965	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1514225916148	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://prom.ua/"
+1514225917503	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483681"
+1514225921622	Marionette	DEBUG	Received DOM event "pageshow" for "https://prom.ua/"
+1514226030748	geckodriver	INFO	geckodriver 0.18.0
+1514226030754	geckodriver	INFO	Listening on 127.0.0.1:38555
+1514226031908	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1514226032705	Marionette	INFO	Enabled via --marionette
+1514226034720	Marionette	INFO	Listening on port 33929
+1514226034860	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514226034965	Marionette	DEBUG	Register listener.js for window 2147483649
+1514226035007	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514226035801	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514226035802	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514226041615	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/p/practice"
+1514226046349	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1514226047262	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/p/practice"
+1514226047296	Marionette	DEBUG	Received DOM event "beforeunload" for "https://letskodeit.teachable.com/p/practice"
+1514226047318	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1514226047546	Marionette	DEBUG	Received DOM event "pagehide" for "https://letskodeit.teachable.com/p/practice"
+1514226047548	Marionette	DEBUG	Received DOM event "unload" for "https://letskodeit.teachable.com/p/practice"
+1514226048849	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1514226048850	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1514226048850	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1514226048850	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1514226048851	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1514226048852	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1514226048852	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1514226049094	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://prom.ua/"
+1514226050295	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483680"
+1514226051578	Marionette	DEBUG	Received DOM event "pageshow" for "https://prom.ua/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1514226145150	geckodriver	INFO	geckodriver 0.18.0
+1514226145155	geckodriver	INFO	Listening on 127.0.0.1:37363
+1514226145227	geckodriver	INFO	geckodriver 0.18.0
+1514226145233	geckodriver	INFO	Listening on 127.0.0.1:38243
+1514226145436	geckodriver	INFO	geckodriver 0.18.0
+1514226145442	geckodriver	INFO	Listening on 127.0.0.1:43887
+1514226146033	geckodriver	INFO	geckodriver 0.18.0
+1514226146041	geckodriver	INFO	Listening on 127.0.0.1:52237
+1514226146168	geckodriver	INFO	geckodriver 0.18.0
+1514226146175	geckodriver	INFO	Listening on 127.0.0.1:44049
+1514226146432	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1514226146594	geckodriver	INFO	geckodriver 0.18.0
+1514226146602	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1514226146612	geckodriver	INFO	Listening on 127.0.0.1:58919
+1514226146766	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1514226147332	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1514226147546	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1514226147956	Marionette	INFO	Enabled via --marionette
+1514226148141	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1514226148289	Marionette	INFO	Enabled via --marionette
+1514226148578	Marionette	INFO	Enabled via --marionette
+1514226149322	Marionette	INFO	Enabled via --marionette
+1514226149565	Marionette	INFO	Enabled via --marionette
+1514226150001	Marionette	INFO	Enabled via --marionette
+1514226155461	Marionette	INFO	Listening on port 37075
+1514226155579	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514226155772	Marionette	INFO	Listening on port 41945
+1514226155872	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514226155998	Marionette	DEBUG	Register listener.js for window 2147483649
+1514226156106	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514226156222	Marionette	DEBUG	Register listener.js for window 2147483649
+1514226156302	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514226156906	Marionette	INFO	Listening on port 39947
+1514226156933	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514226156933	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514226157021	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514226157439	Marionette	DEBUG	Register listener.js for window 2147483649
+1514226157524	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514226157708	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514226157709	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514226157865	Marionette	INFO	Listening on port 45623
+1514226157937	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514226158390	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514226158391	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514226158469	Marionette	DEBUG	Register listener.js for window 2147483649
+1514226158539	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514226159530	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514226159531	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514226159679	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/p/practice"
+1514226160177	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/p/practice"
+1514226160862	Marionette	INFO	Listening on port 33755
+1514226161015	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://shield-recipe-client/lib/NormandyApi.jsm, line 60: TypeError:  is not a valid URL.
+1514226161234	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/p/practice"
+1514226161568	Marionette	DEBUG	Register listener.js for window 2147483649
+1514226161715	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514226162456	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/p/practice"
+1514226162650	Marionette	INFO	Listening on port 40991
+1514226162711	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514226162711	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514226162863	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://shield-recipe-client/lib/NormandyApi.jsm, line 60: TypeError:  is not a valid URL.
+1514226163562	Marionette	DEBUG	Register listener.js for window 2147483649
+1514226163712	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514226164486	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514226164487	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514226165036	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/p/practice"
+1514226165305	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1514226165519	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/p/practice"
+1514226165644	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/p/practice"
+1514226166271	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/p/practice"
+1514226166871	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/p/practice"
+1514226167522	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/p/practice"
+1514226170876	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1514226171324	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/p/practice"
+1514226172452	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/p/practice"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1514226298176	geckodriver	INFO	geckodriver 0.18.0
+1514226298181	geckodriver	INFO	Listening on 127.0.0.1:51663
+1514226299331	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1514226300261	Marionette	INFO	Enabled via --marionette
+1514226302494	Marionette	INFO	Listening on port 40527
+1514226302618	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514226302726	Marionette	DEBUG	Register listener.js for window 2147483649
+1514226302778	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514226303738	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514226303738	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514226309572	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/p/practice"
+1514226311365	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/p/practice"
+1514226311564	Marionette	DEBUG	Received DOM event "beforeunload" for "https://letskodeit.teachable.com/p/practice"
+1514226311810	Marionette	DEBUG	Received DOM event "pagehide" for "https://letskodeit.teachable.com/p/practice"
+1514226311811	Marionette	DEBUG	Received DOM event "unload" for "https://letskodeit.teachable.com/p/practice"
+1514226312050	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1514226312494	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483671"
+1514226312495	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1514226312496	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1514226312496	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1514226312497	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1514226312497	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1514226312498	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1514226312498	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1514226317016	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483683"
+1514226317280	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://prom.ua/"
+1514226319002	Marionette	DEBUG	Received DOM event "pageshow" for "https://prom.ua/"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 19173, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-bfYN6l/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1514226347986	geckodriver	INFO	geckodriver 0.18.0
+1514226347991	geckodriver	INFO	Listening on 127.0.0.1:56581
+1514226349141	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1514226349946	Marionette	INFO	Enabled via --marionette
+1514226352023	Marionette	INFO	Listening on port 43099
+1514226352062	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514226352172	Marionette	DEBUG	Register listener.js for window 2147483649
+1514226352306	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514226353018	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514226353019	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514226363840	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/p/practice"
+1514226365603	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/p/practice"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1514226391831	geckodriver	INFO	geckodriver 0.18.0
+1514226391836	geckodriver	INFO	Listening on 127.0.0.1:36619
+1514226392994	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1514226393792	Marionette	INFO	Enabled via --marionette
+1514226395977	Marionette	INFO	Listening on port 44727
+1514226396031	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514226396149	Marionette	DEBUG	Register listener.js for window 2147483649
+1514226396199	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514226396894	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514226396895	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514226402709	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/p/practice"
+1514226407472	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1514226407578	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/p/practice"
+1514226407625	Marionette	DEBUG	Received DOM event "beforeunload" for "https://letskodeit.teachable.com/p/practice"
+1514226407850	Marionette	DEBUG	Received DOM event "pagehide" for "https://letskodeit.teachable.com/p/practice"
+1514226407852	Marionette	DEBUG	Received DOM event "unload" for "https://letskodeit.teachable.com/p/practice"
+1514226409041	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1514226409041	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483671"
+1514226409042	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1514226409061	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1514226409063	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1514226409063	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1514226409064	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1514226409065	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1514226409326	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://prom.ua/"
+1514226410617	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483681"
+1514226415349	Marionette	DEBUG	Received DOM event "pageshow" for "https://prom.ua/"
+1514227332080	geckodriver	INFO	geckodriver 0.18.0
+1514227332090	geckodriver	INFO	Listening on 127.0.0.1:55279
+1514227333244	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1514227334034	Marionette	INFO	Enabled via --marionette
+1514227336116	Marionette	INFO	Listening on port 36373
+1514227336168	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514227336279	Marionette	DEBUG	Register listener.js for window 2147483649
+1514227336322	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514227337160	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514227337161	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514227342986	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/p/practice"
+1514227347730	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1514227348602	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/p/practice"
+1514227348641	Marionette	DEBUG	Received DOM event "beforeunload" for "https://letskodeit.teachable.com/p/practice"
+1514227348696	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1514227348870	Marionette	DEBUG	Received DOM event "pagehide" for "https://letskodeit.teachable.com/p/practice"
+1514227348871	Marionette	DEBUG	Received DOM event "unload" for "https://letskodeit.teachable.com/p/practice"
+1514227349593	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1514227349593	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1514227349594	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1514227349595	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483666"
+1514227349595	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1514227349596	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1514227349596	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483664"
+1514227350235	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://prom.ua/"
+1514227351649	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483681"
+1514227352692	Marionette	DEBUG	Received DOM event "pageshow" for "https://prom.ua/"
+1514227510559	geckodriver	INFO	geckodriver 0.18.0
+1514227510564	geckodriver	INFO	Listening on 127.0.0.1:36375
+1514227511728	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1514227512514	Marionette	INFO	Enabled via --marionette
+1514227514684	Marionette	INFO	Listening on port 37423
+1514227514797	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514227514911	Marionette	DEBUG	Register listener.js for window 2147483649
+1514227514955	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514227515210	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514227515211	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514227516568	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://prom.ua/"
+1514227517745	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1514227522437	Marionette	DEBUG	Received DOM event "pageshow" for "https://prom.ua/"
+1514227664051	geckodriver	INFO	geckodriver 0.18.0
+1514227664057	geckodriver	INFO	Listening on 127.0.0.1:56299
+1514227665208	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1514227666017	Marionette	INFO	Enabled via --marionette
+1514227668129	Marionette	INFO	Listening on port 36025
+1514227668230	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514227668361	Marionette	DEBUG	Register listener.js for window 2147483649
+1514227668407	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514227669223	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514227669223	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514227675047	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/p/practice"
+1514227676759	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/p/practice"
+1514227727448	geckodriver	INFO	geckodriver 0.18.0
+1514227727454	geckodriver	INFO	Listening on 127.0.0.1:57465
+1514227728617	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1514227729409	Marionette	INFO	Enabled via --marionette
+1514227731491	Marionette	INFO	Listening on port 33753
+1514227731782	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514227731892	Marionette	DEBUG	Register listener.js for window 2147483649
+1514227731945	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514227732748	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514227732749	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514227738588	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/p/practice"
+1514227743329	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1514227744238	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/p/practice"
+1514227790769	geckodriver	INFO	geckodriver 0.18.0
+1514227790776	geckodriver	INFO	Listening on 127.0.0.1:49741
+1514227791931	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1514227792708	Marionette	INFO	Enabled via --marionette
+1514227795132	Marionette	INFO	Listening on port 46289
+1514227795154	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514227795259	Marionette	DEBUG	Register listener.js for window 2147483649
+1514227795311	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514227796083	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514227796084	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514227806889	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/p/practice"
+1514227808448	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/p/practice"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
