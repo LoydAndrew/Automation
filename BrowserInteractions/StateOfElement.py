@@ -17,6 +17,7 @@ class ElementState():
         e2 = driver.find_element_by_id("lst-ib")
         e2.send_keys("letskodeit")
         e2state = e2.is_enabled()
+        e2.submit()
         print(str(e2state) + " is a state of e2state")
         sleep(3)
         driver.quit()
