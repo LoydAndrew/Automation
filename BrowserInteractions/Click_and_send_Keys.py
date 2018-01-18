@@ -11,7 +11,7 @@ class ClickAndSend():
         driver.get(baseUrl)
         login_link = driver.find_element(By.XPATH, "//a[@href='/sign_in']")
         login_link.click()
-        driver.implicitly_wait(10)# waiting 10 seconds, then another until finding
+        driver.implicitly_wait(10)  # waiting 10 seconds, then another until finding
 
         email = driver.find_element(By.ID, "user_email")
         email.send_keys('test')
