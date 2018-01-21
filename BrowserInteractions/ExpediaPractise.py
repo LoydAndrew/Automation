@@ -1,14 +1,15 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By
+#from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from time import sleep
+from Constants import expedia_url
 
 class ExpediaTest(object):
 
     def test(self):
         driver = webdriver.Chrome()
         driver.maximize_window()
-        driver.get("https://www.expedia.com")
+        driver.get(expedia_url)
         #driver.implicitly_wait(5)
 
         try:
@@ -18,8 +19,8 @@ class ExpediaTest(object):
             search_element.send_keys("Kiev")
 
             #choosing checkin and checkout dates
-            driver.find_element_by_id('hotel-checkin-hp-hotel').send_keys(
-                '01/22/2018')
+            checkin = driver.find_element_by_id('hotel-checkin-hp-hotel')
+            checkin.send_keys('01/22/2018')
             sleep(1)
 
             checkout = driver.find_element_by_id('hotel-checkout-hp-hotel')
@@ -30,12 +31,12 @@ class ExpediaTest(object):
             guests_element = driver.find_element_by_css_selector(
                 "select[data-gcw-guests-toggled-field-on-value='99']")
             guests_element.click()
-            select_guests = Select(guests_element).select_by_value('1')
+            Select(guests_element).select_by_value('1')
             sleep(1)
             #choosing car option
             car_selected = driver.find_element_by_id('hotel-add-car-checkbox-hp-hotel')
             car_selected.click()
-            print("Car option is selected: " + str(car_selected.is_enabled()))
+            print("Car option is selected: " + str(car_selected.is_selected()))
             #sleep(1)
             #submiting all that was selected
             driver.find_element_by_css_selector(
