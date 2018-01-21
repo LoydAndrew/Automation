@@ -14,8 +14,8 @@ class ExpediaTest(object):
         try:
             driver.find_element_by_id("tab-hotel-tab-hp").click()#finding hotels tab
             sleep(2)
-            input_element = driver.find_element_by_id("hotel-destination-hp-hotel")
-            input_element.send_keys("Kiev")
+            search_element = driver.find_element_by_id("hotel-destination-hp-hotel")
+            search_element.send_keys("Kiev")
 
             #choosing checkin and checkout dates
             driver.find_element_by_id('hotel-checkin-hp-hotel').send_keys(
