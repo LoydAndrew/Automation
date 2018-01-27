@@ -37,8 +37,8 @@ class HandyWrapper():
             return By.PARTIAL_LINK_TEXT
 
         else:
-            print("Locator type " + str(locator_type) + "is not supported")
-        return False
+            printRed("Locator type " + str(locator_type) + " is not supported")
+        return locator_type
 
     def get_element(self,locator,locator_type="id"):
         element = None
@@ -47,8 +47,7 @@ class HandyWrapper():
             element = self.driver.find_element(by_type,locator)
             if element is not None:
                 print("Element %s was found by %s " % (locator,by_type))
-                return element
         except:
             printRed("!!! Element %s was not found by %s !!!" % (locator,by_type))
-            return NoSuchElementException
+        return element
 
