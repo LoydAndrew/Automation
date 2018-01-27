@@ -1,4 +1,9 @@
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
+
+
+def printRed(prt):
+    print("\033[91m{}\033[00m".format(prt))
 
 
 class HandyWrapper():
@@ -40,8 +45,10 @@ class HandyWrapper():
         try:
             by_type = self.GetByType(locator_type)
             element = self.driver.find_element(by_type,locator)
-            print("Element was found by: " + str(by_type))
+            if element is not None:
+                print("Element %s was found by %s " % (locator,by_type))
+                return element
         except:
-            print("Element was not found")
-        return element
+            printRed("!!! Element %s was not found by %s !!!" % (locator,by_type))
+            return NoSuchElementException
 

@@ -2,8 +2,9 @@ from selenium import webdriver
 from time import sleep
 #from selenium.webdriver.common.by import By
 #from selenium.webdriver.support.select import Select
-from Constants import kodeit_practise_url
-from HandyWrapper import HandyWrapper
+from Constants  import kodeit_practise_url
+from HandyWrapper import HandyWrapper, printRed
+
 
 
 
@@ -24,6 +25,7 @@ class WrapperUsage(object):
         sleep(1)
         text_field2.clear()
         sleep(1)
+        printRed("PrintRed")
         driver.quit()
 
 CH = WrapperUsage()
