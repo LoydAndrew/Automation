@@ -1,6 +1,9 @@
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
-
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as ec
+from selenium.common.exceptions import *
+from traceback import print_stack
 
 def printRed(prt):
     print("\033[91m{}\033[00m".format(prt))
@@ -50,4 +53,34 @@ class HandyWrapper():
         except:
             printRed("!!! Element %s was not found by %s !!!" % (locator,by_type))
         return element
+
+class Explicitly_Wait():
+    def __init__(self, driver):
+        self.driver = driver
+        self.hw = HandyWrapper(driver)
+
+    def wait_for_element(self,locator,locator_type="id",
+                         timeout=10,poll_frequency=0.5):
+        element = None
+        try:
+            by_type = self.hw.GetByType(locator_type)
+            wait = WebDriverWait(
+                self.driver,
+                timeout=timeout,
+                poll_frequency=poll_frequency,
+                ignored_exceptions=[
+                    NoSuchElementException,
+                    ElementNotSelectableException,
+                    ElementNotVisibleException])
+            element = wait.until(ec.element_to_be_clickable((
+                by_type, locator))
+            )
+            print("Element appeared on the page")
+        except:
+            print ("Element didn't appear on the page")
+            print_stack()
+        return element
+
+
+
 

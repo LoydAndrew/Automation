@@ -14,7 +14,7 @@ class ExplicitWait(object):
         driver = webdriver.Chrome()
         driver.maximize_window()
         driver.get(expedia_url)
-        driver.implicitly_wait(0.5)
+        #driver.implicitly_wait(0.5)
 
         try:
             driver.find_element_by_id("tab-flight-tab-hp").click()
