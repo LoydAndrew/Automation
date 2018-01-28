@@ -3,6 +3,8 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.common.exceptions import *
+from time import strftime
+from os import path
 from traceback import print_stack
 
 def printRed(prt):
@@ -80,6 +82,23 @@ class Explicitly_Wait():
             print ("Element didn't appear on the page")
             print_stack()
         return element
+
+
+def screenshot(driver):
+
+    """Implementation of  webdriver.save_screenshot()
+     function that takes static directory and adds to it
+     a name of the executing script + timestamp + png.
+     Thus having dynamic  explicit name for screenshot """
+
+    filename = str(path.basename(__file__)) + str(strftime("%Y-%m-%d %H:%M:%S")) + ".png"
+    directory = '/home/andrew/Documents/workspace_automation/Automation/Screenshots/'
+    screenshot_directory = directory + filename
+    try:
+        driver.save_screenshot(screenshot_directory)
+        print("Screenshot was saved to: " + screenshot_directory)
+    except NotADirectoryError:
+        print("Directory error")
 
 
 
