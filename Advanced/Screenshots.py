@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from HandyWrapper import screenshot
-from Constants import kodeit_main_url, destination
+from Constants import kodeit_main_url
 from time import sleep
 
 class ScreenShot():
