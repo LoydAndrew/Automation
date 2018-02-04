@@ -6,6 +6,8 @@ from selenium.common.exceptions import *
 from time import strftime
 from os import path
 from traceback import print_stack
+import inspect
+import logging
 
 def printRed(prt):
     print("\033[91m{}\033[00m".format(prt))
@@ -99,6 +101,24 @@ def screenshot(driver):
         print("Screenshot was saved to: " + screenshot_directory)
     except NotADirectoryError:
         print("Directory error")
+
+
+def customLogger(logLevel):
+    #getting the name of the method
+    loggerName = inspect.stack()[1][3]
+    logger = logging.getLogger(loggerName)
+
+    #all messages
+
+    logger.setLevel(logging.DEBUG)
+
+    fileHandler = logging.FileHandler(filename="{0}.log".format(loggerName),mode='w')
+    fileHandler.setLevel(logLevel)
+
+    formatter = logging.Formatter('%(asctime)s, %(name)s: %(levelname)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S %p')
+    fileHandler.setFormatter(formatter)
+    logger.addHandler(fileHandler)
+    return logger
 
 
 
