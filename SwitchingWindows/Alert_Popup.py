@@ -17,13 +17,13 @@ class Iframe():
             driver.find_element(By.ID, "name").send_keys("Ojega")
             driver.find_element(By.ID, "alertbtn").click()
             sleep(2)
-            alert1 = driver.switch_to.alert
-            alert1.accept()
+            alert1 = driver.switch_to.alert.accept()
+            #alert1.accept()
             sleep(2)
             driver.find_element(By.ID, "confirmbtn").click()
             sleep(2)
-            alert2 = driver.switch_to.alert
-            alert2.dismiss()
+            alert2 = driver.switch_to.alert.dismiss()
+            #alert2.dismiss()
 
         finally:
             driver.quit()
