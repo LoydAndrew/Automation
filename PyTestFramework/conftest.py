@@ -8,14 +8,18 @@ def setUp():
     print("\nOnce yield method level TEARDOWN after every method")
 
 
-@pytest.yield_fixture(scope="module")
-def onetimesetUp(browser,os_type):
+@pytest.yield_fixture(scope="class")
+def onetimesetUp(request,browser,os_type):
     print("Running onetimesetUp test")
     if browser == "Firefox":
+        value = 10
         print ("Running on Firefox")
     else:
+        value = 20
         print("Running on Chrome")
-    yield
+    if request.cls is not None:
+        request.cls.value = value
+    yield value
     print("\nOnce yield after all tests are done")
 
 def pytest_addoption(parser):
