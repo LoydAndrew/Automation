@@ -3,9 +3,9 @@ import pytest
 @pytest.yield_fixture()
 
 def setUp():
-    print ("Once before every method")
+    print ("Running method level setup")
     yield
-    print("\nOnce yield after every method")
+    print("\nOnce yie")
 
 def test_method1(setUp):
     print ("Running method 1")
