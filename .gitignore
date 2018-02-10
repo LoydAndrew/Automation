@@ -1,0 +1,11 @@
+.idea/
+BrowserInteractions/geckodriver.log
+Logging/LogginDemo.log
+Logging/method2.log
+Logging/method3.log
+Logging/test.log
+Screenshots/
+UnitTest/__pycache__/
+__pycache__/
+file.txt
+test.png
