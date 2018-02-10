@@ -1,0 +1,5 @@
+{
+  "test_class_to_test.py::TestClass::()::test_methodC": true,
+  "test_class_to_test.py::test_methodB": true,
+  "test_class_to_test.py::test_methodC": true
+}

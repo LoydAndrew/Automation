@@ -5,7 +5,7 @@ import pytest
 def setUp():
     print ("Running method level setup")
     yield
-    print("\nOnce yie")
+    print("\nOnce yield")
 
 def test_method1(setUp):
     print ("Running method 1")

@@ -14,4 +14,6 @@ class TestClass():
         print ("Running method B")
 
     def test_methodC(self):
+        result = self.abc.sum_number(1, 2)
+        assert result < 0
         print ("Running method C")
